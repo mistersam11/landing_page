@@ -84,7 +84,7 @@ a {
 
 .wrapper-two {
     display: flex;
-    padding: 20px 200px;
+    padding: 40px 200px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -122,4 +122,31 @@ a {
     font-size: 18px;
     color: #1F2937;
     text-align: center;
+}
+
+.wrapper-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    padding: 140px 260px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0px;
+    padding: 0px;
+}
+
+.credit {
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px; 
 }

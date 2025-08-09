@@ -150,3 +150,42 @@ a {
     padding: 0px;
     margin: 0px; 
 }
+
+.wrapper-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 200px;
+}
+
+.banner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 120px;
+    background-color: #3882F6;
+    flex: 1;
+}
+
+.banner-left * {
+    color: #F9FAF8
+}
+
+.banner-left h2 {
+    font-size: 24px;
+}
+
+.banner-left p {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.banner-wrapper button {
+    background-color: #3882F6;
+    border: #F9FAF8 2px solid;
+    color:#F9FAF8;
+    padding: 5px 22px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 16px;
+}
